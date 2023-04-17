@@ -9,5 +9,8 @@ jobs:
    - name: first-step
      run: pwd
    - name: second-step
-     run: ls -l
+     run: |
+      cat >> textfile.txt
+      This is a text
+      ls 
   
