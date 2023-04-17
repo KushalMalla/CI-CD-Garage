@@ -10,7 +10,6 @@ jobs:
      run: pwd
    - name: second-step
      run: |
-      cat >> textfile.txt
-      This is a text
+      touch textfile.txt
       ls 
   
